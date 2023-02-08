@@ -8,12 +8,13 @@
 </head>
 <body>
     <script>
-    function multiply(num1, num2) {
-  sum = num1 * num2;
-  console.log(sum);
-}
 
-multiply(23, 3);
+    function capitalize(str) {
+    str = str.toLowerCase();
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+console.log(capitalize("HELLO"));
+
    </script>
 </body>
 </html>
